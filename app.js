@@ -27,5 +27,5 @@ mongoose.connect(process.env.MONGO_URL, {
 app.use(errorHandler);
 
 // Server
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+const PORT = process.env.PORT || 4000;
+app.listen(PORT, () => console.log(`Server running on port http://localhost:${PORT}`));
